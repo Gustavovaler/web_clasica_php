@@ -26,7 +26,8 @@
 					echo '
 				<li><a href="logout.php">Salir</a>
 			</li> 
-			<li><a href="#" id="bienvenido">Bienvenido </a>
+			<li><a href="insertar.php"</li>Insertar
+			<li><a href="#" id="bienvenido">Bienvenido '.$_SESSION["nombre"].'</a>
 					</li></ul> <br>logueado';			
 			}
 

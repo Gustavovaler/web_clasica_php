@@ -22,7 +22,7 @@ ul{
 }
 #bienvenido{
 	float: right !important;
-	color: red;
+	color: #66ccff;
 }
 .bar-nav li a:hover{
 	background-color: #111;
