@@ -1,0 +1,5 @@
+
+1-clonar a carpeta visible del servidor local ( www para wamp  -- htdocs para xxamp)
+2-entrar a config.php
+3-llenar los datos y enviar. Si no hay mensajes de error cerrar y abrir normal desde index.php
+
