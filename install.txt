@@ -1,5 +1,12 @@
 
 1-clonar a carpeta visible del servidor local ( www para wamp  -- htdocs para xxamp)
-2-entrar a config.php
-3-llenar los datos y enviar. Si no hay mensajes de error cerrar y abrir normal desde index.php
+
+
+2- en conexion.php reemplazar  => $conn = mysqli_connect("localhost","root","","base1");<=
+        por =>$conn = mysqli_connect("tu_server","tu user de base de datos",tu_pass_de_base_datos","tu_base_de_datos");
+
+
+3-entrar a config.php
+
+4-llenar los datos y enviar. Si no hay mensajes de error cerrar y abrir normal desde index.php
 
