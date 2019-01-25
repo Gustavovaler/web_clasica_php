@@ -24,7 +24,7 @@ if(!$_SESSION){
 	Temporada:<br>
 	<input type="text" name="temporada" pattern="[0-9]+"><br>
 	Cantidad:<br>
-	<input type="text" name="cantidad" pattern="[0-9]+"><br>
+	<input type="text" name="cantidad" pattern="[0-9]+" title="Solo valores numericos."><br>
 	Precio:<br>
 	<input type="text" name="precio" required=""><br>
 	Precio mayorista:<br>
