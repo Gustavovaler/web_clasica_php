@@ -32,3 +32,8 @@ ul{
 	padding-right: 30px;
 
 }
+.central-ph{
+	background-image: url('../imagenes/ph.jpg'); 
+	min-height: 700px;
+	
+}
