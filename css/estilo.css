@@ -27,3 +27,8 @@ ul{
 .bar-nav li a:hover{
 	background-color: #111;
 }
+.bar-nav li:last-child{
+	float: right;
+	padding-right: 30px;
+
+}
