@@ -10,11 +10,11 @@ if(!$_SESSION){
 <div class="container-insert">
 <form method="POST" action="insert.php">
 	Descripcion:<br>
-	<input type="text" name="descripcion"><br>
+	<input type="text" name="descripcion" required=""><br>
 	Numero de articulo:<br>
 	<input type="text" name="nro_articulo"><br>
 	Talle:<br>
-	<input type="text" name="talle"><br>
+	<input type="text" name="talle" required=""><br>
 	Color:<br>
 	<input type="text" name="color"><br>
 	Fabricante:<br>
@@ -26,9 +26,9 @@ if(!$_SESSION){
 	Cantidad:<br>
 	<input type="text" name="cantidad"><br>
 	Precio:<br>
-	<input type="text" name="precio"><br>
+	<input type="text" name="precio" required=""><br>
 	Precio mayorista:<br>
-	<input type="text" name="precio_mayorista"><br><br>
+	<input type="text" name="precio_mayorista" required=""><br><br>
 	<input type="submit" name="" value="Insertar">
 
 
