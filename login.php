@@ -15,7 +15,9 @@ require("header.php");
 		<input type="text" name="email"><br>
 		Password:<br>
 		<input type="password" name="password"><br>
-		<input type="submit" name="enviar" value="Ingresar">
+		<input type="submit" name="enviar" value="Ingresar"><span>
+			<a href="register.php">Obten una cuenta</a></span>
+			<a href="#">Olvidaste tu contraseña?</a>
 		
 
 	</form>
