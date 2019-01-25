@@ -12,7 +12,7 @@ if(!$_SESSION){
 	Descripcion:<br>
 	<input type="text" name="descripcion" required=""><br>
 	Numero de articulo:<br>
-	<input type="text" name="nro_articulo"><br>
+	<input type="text" name="nro_art"><br>
 	Talle:<br>
 	<input type="text" name="talle" required=""><br>
 	Color:<br>
@@ -28,7 +28,7 @@ if(!$_SESSION){
 	Precio:<br>
 	<input type="text" name="precio" required=""><br>
 	Precio mayorista:<br>
-	<input type="text" name="precio_mayorista" required=""><br><br>
+	<input type="text" name="precio_mayor" required=""><br><br>
 	<input type="submit" name="" value="Insertar">
 
 

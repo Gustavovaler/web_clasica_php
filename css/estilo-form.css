@@ -12,11 +12,11 @@ input[type=text],input[type=password]{
 }
 
 input[type=text]:focus{
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid #4CAF50;
 }
 
 input[type=password]:focus{
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid #4CAF50;
 }
 
 input[type=submit]{
