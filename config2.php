@@ -5,6 +5,8 @@
 	$pass=$_REQUEST['password'];
 	
 	$sql="CREATE TABLE IF NOT EXISTS auth_user ( id INT PRIMARY KEY AUTO_INCREMENT NOT NULL, nombre VARCHAR(60) NOT NULL , email  VARCHAR(150) NOT NULL UNIQUE , password VARCHAR(20) NOT NULL , enable BOOLEAN NOT NULL ) ENGINE = MyISAM  DEFAULT CHARSET=utf8";
+
+	$sql2="CREATE TABLE IF NOT EXISTS productos";
 	$conn = mysqli_connect('localhost',$user,$pass,$base);
 	if(!$conn){
 
