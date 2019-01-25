@@ -10,7 +10,7 @@
 		<div class="contenedor-nav">
 		<ul class="bar-nav">
 			<li>
-				<a href="index.php">Inicio</a>
+				<a href="index.php"><img src="imagenes/home.png" class="home-image"></a>
 			</li>
 			<li>
 				<a href="productos.php">Productos</a>
