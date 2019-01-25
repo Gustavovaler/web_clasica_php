@@ -33,11 +33,11 @@
 			else{
 				echo '<li><a href="login.php">Ingresar</a></li><li>
 				<a href="register.php">Registrarse</a>
-				</li></ul> no logueado';			
+				</li></ul>';			
 			}}
 			else
 			{		echo '<li><a href="login.php">Ingresar</a></li><li>
-				<a href="register.php">Registrarse</a></li></ul> no logueado';			
+				<a href="register.php">Registrarse</a></li></ul>';			
 			}
 			?>
 		
