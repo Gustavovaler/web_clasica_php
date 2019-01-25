@@ -11,8 +11,15 @@ if (mysqli_query($conn,$sql)){
 	header("location:index.php");
 }
 else{
-	echo "hubo un error<br>";
-	echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+	if( mysqli_error($conn)=='Duplicate entry '."'".$email."'".' for key '."'".'email'."'"){
+		echo "<script type='text/javascript'>alert('Esa cuenta de mail ya se encuentra registrada');</script>";
+		echo "<a href='javascript:history.back(1)'>Reintentar</a>";
+
+
+		
+		
+	}
+	//echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 
 }
 mysqli_close($conn);
