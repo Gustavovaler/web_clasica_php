@@ -26,7 +26,7 @@
 
 					echo '<li><a href="insertar.php">Insertar</a></li>
 					<li><a href="logout.php">Salir</a></li> 					
-					<li><a href="#" id="bienvenido">Bienvenido '.$_SESSION["nombre"].'</a>
+					<img src="imagenes/user.png" class="user-img"><li><a href="#" id="bienvenido">Bienvenido '.$_SESSION["nombre"].'</a>
 					</li></ul>';	
 				}
 

@@ -42,3 +42,9 @@ ul{
 	padding: 0px;
 	margin: 0px;
 }
+.user-img{
+	width: 30px;
+	float: right;
+	padding-right: 100px;
+	padding-top: 10px;
+}
