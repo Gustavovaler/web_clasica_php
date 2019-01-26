@@ -8,7 +8,9 @@ if(!$_SESSION){
 ?>
 <link rel="stylesheet" type="text/css" href="css/estilo-form.css">
 <div class="container-insert">
-<form method="POST" action="insert.php">
+<form method="POST" action="insert.php" enctype="multipart/form-data">
+	Foto:<br>
+	<input type="file" name="foto"><br>
 	Descripcion:<br>
 	<input type="text" name="descripcion" required ><br>
 	Numero de articulo:<br>
@@ -29,6 +31,7 @@ if(!$_SESSION){
 	<input type="text" name="precio" required=""><br>
 	Precio mayorista:<br>
 	<input type="text" name="precio_mayor" required=""><br><br>
+
 	<input type="submit" name="" value="Insertar">
 
 

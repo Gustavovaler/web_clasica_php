@@ -10,6 +10,8 @@ $temporada=$_POST['temporada'];
 $cantidad=$_POST['cantidad'];
 $precio=$_POST['precio'];
 $precio_mayor=$_POST['precio_mayor'];
+$nombre_foto =$_FILES['imagen']['name'];
+
 
 $sql2="INSERT INTO productos (descripcion,nro_art,talle,color,fabricante,jugador,temporada,cantidad,precio,precio_mayor)VALUES ('$descripcion','$nro_art','$talle','$color','$fabricante','$jugador','$temporada','$cantidad','$precio','$precio_mayor')";
 
