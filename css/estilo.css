@@ -33,9 +33,10 @@ ul{
 
 }
 .central-ph{
-	background-image: url('../imagenes/ph.jpg'); 
-	min-height: 700px;
-	
+	background-image: url('../imagenes/compo-futbol.jpg'); 
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .home-image{
 	width: 23px;
@@ -47,4 +48,8 @@ ul{
 	float: right;
 	padding-right: 100px;
 	padding-top: 10px;
+}
+.pehlogo{
+	width: 800px;
+	padding-left: 250px;
 }
