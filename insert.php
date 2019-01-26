@@ -28,7 +28,7 @@ if(mysqli_query($conn,$sql2)){
 else{
 	echo mysqli_error($conn);
 }
-
+mysqli_close($conn);
 
 
 
