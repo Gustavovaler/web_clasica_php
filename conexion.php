@@ -1,5 +1,11 @@
 <?php
-$conn = mysqli_connect("localhost","root","","base1");
+
+$baseUser= 'root';
+$host = 'localhost';
+$passBase = '';
+$baseName = 'base1';
+
+$conn = mysqli_connect($host,$baseUser,$passBase,$baseName);
 
 if(!$conn){
 	echo "Error: no se pudo conectar a la base de datos ". PHP_EOL;

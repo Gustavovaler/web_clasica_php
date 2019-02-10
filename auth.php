@@ -4,7 +4,7 @@ $email=$_POST['email'];
 $password=$_POST['password'];
 
 require('conexion.php');
-$sql="INSERT INTO auth_user (nombre,email,password,enable)VALUES('$nombre','$email','$password','1')";
+$sql="INSERT INTO auth_user (nombre,email,password,enable)VALUES('$nombre','$email','$password','0')";
 if (mysqli_query($conn,$sql)){
 	session_start();
 	$_SESSION['nombre']= $nombre;
